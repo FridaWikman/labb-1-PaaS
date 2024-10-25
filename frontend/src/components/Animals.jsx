@@ -1,5 +1,14 @@
 import '../App.css'
+import { useEffect } from 'react'
 function Home() {
+  useEffect(() => {
+    fetch('http://localhost:3000/api')
+      .then((response) => response.json())
+      .then((result) => {
+        console.log(result)
+      })
+  }, [])
+
   const animals = [
     {
       name: 'Brumma',
