@@ -1,10 +1,11 @@
 # Labb1-Paas
 
 Mitt publicerade projekt:
+https://labb-1-paas.onrender.com/
 
 Content Delivery Network (CDN)
 
-CDN är en grupp servrar som är placerade på olika platser i varlden för att kunna leverera innehåll till användaren snabbare. CDN kopierar innehåll från en webbplats och levererar det till användaren från den server som ligger närmast geografiskt. Detta innebär att websidor kan laddas snabbare. En annan fördel är också att om det blir problem med en server så kan en annan ta över.
+CDN är en grupp servrar som är placerade på olika platser i världen för att kunna leverera innehåll till användaren snabbare. CDN kopierar innehåll från en webbplats och levererar det till användaren från den server som ligger närmast geografiskt. Detta innebär att websidor kan laddas snabbare. En annan fördel är också att om det blir problem med en server så kan en annan ta över.
 Exempel på CDN-tjänster är CLoudeflare, Akamai CDN Solutions, Amazon Cloudfront och KEYCDN.
 
 Monitorering
