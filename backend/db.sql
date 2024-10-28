@@ -15,20 +15,26 @@ CREATE TABLE animals (
 );
 
 INSERT INTO animal_types (name)
-VALUES ('Brunbjörn');
+VALUES ('Elefant'); -- 2
 INSERT INTO animal_types (name)
-VALUES ('Elefant');
+VALUES ('Giraff'); -- 3
 INSERT INTO animal_types (name)
-VALUES ('Giraff');
+VALUES ('Pilgiftsgroda'); -- 4
 INSERT INTO animal_types (name)
-VALUES ('Pilgiftsgroda');
+VALUES ('Pytonorm'); -- 5
 INSERT INTO animal_types (name)
-VALUES ('Pytonorm');
+VALUES ('Panda'); --6
 INSERT INTO animal_types (name)
-VALUES ('Panda');
+VALUES ('Brunbjörn'); -- 7
 
 INSERT INTO animals (name, weight, type, image)
-VALUES ('Brumma', '250 kg', 1, 'https://cdn.pixabay.com/photo/2016/03/27/18/10/bear-1283347_1280.jpg');
+VALUES ('Brumma', '250 kg', 7, 'https://cdn.pixabay.com/photo/2016/03/27/18/10/bear-1283347_1280.jpg');
+
+INSERT INTO animals (name, weight, type, image)
+VALUES ('Björne', '60 kg', 7, 'https://cdn.pixabay.com/photo/2021/11/05/18/23/bear-6771842_1280.jpg');
+
+INSERT INTO animals (name, weight, type, image)
+VALUES ('Phil', '30 g', 4, 'https://www.pandaplanet.se/sites/default/files/styles/paragraph_image_1800xauto_/public/image_paragraph/pilgiftsgroda-bla%CC%8A.png?itok=kiQCmyUZ');
 
 
 -- 1. psql --username=postgres
