@@ -36,7 +36,7 @@ function AddAnimal() {
 
   return (
     <>
-      <div className="rounded shadow-md max-w-xl card p-10">
+      <div className="rounded shadow-md max-w-xl card p-10 ms-10">
         <form onSubmit={handleSubmit}>
           <div className="space-y-12">
             <div className=" ">
